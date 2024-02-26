@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://mindfullmoment.onrender.com";
+const BASE_URL = "https://mindfullmoment-backend.onrender.com/";
 // process.env.BASE_URL || "http://localhost:3001";
 
 /** API Class.

@@ -7,7 +7,7 @@ import Alert from "../common/Alert";
 function AddJournal() {
   const history = useHistory();
   const { currentUser } = useContext(UserContext);
-  const [error, setError] = useState(null);
+  const [setError] = useState(null);
   const [saveConfirmed, setSaveConfirmed] = useState(false);
   const [formData, setFormData] = useState({
     username: currentUser.username,
