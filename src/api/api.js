@@ -2,7 +2,7 @@ import axios from "axios";
 
 const BASE_URL = "https://mindfullmoment-backend.onrender.com";
 
-process.env.BASE_URL || "http://localhost:3001";
+// process.env.BASE_URL || "http://localhost:3001";
 
 /** API Class.
  *
