@@ -1,35 +1,67 @@
-zenquotes.io - add inspirational quotes each time user opens the App or apart of meditaion section.
+# MindfullMoment
 
-health.gov - for users to search for resource articles
+## Overview
 
-Proposal for Mental Health Support Platform
+Welcome to the MindfullMoment repository. This project aims to develop a comprehensive web application to promote mental well-being through various features such as habit tracking, journaling, educational resources, mindfulness exercises, and goal setting.
 
-Executive Summary: I propose the development of a comprehensive Mental Health Support Platform, leveraging the React front-end and Node.js back-end technologies. This platform will include a Mental Health API, mood tracking, journaling, a resource hub, mindfulness and relaxation exercises, as well as goal setting and progress tracking. The focus will be on creating an evenly balanced full-stack application accessible as a website.
+## Table of Contents
 
-Project Details:
+1. [Introduction](#introduction)
+2. [Project Details](#project-details)
+   - [Tech Stack](#tech-stack)
+   - [Project Focus](#project-focus)
+   - [Platform Type](#platform-type)
+   - [Project Goals](#project-goals)
+   - [Target Users](#target-users)
+   - [Data Usage](#data-usage)
+   - [Approach](#approach)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
 
-Tech Stack: React will be used for the front-end and Node.js for the back-end, ensuring a modern and efficient development process. This tech stack provides scalability, maintainability, and a seamless user experience.
+## Introduction
 
-Project Focus: The project will be an evenly focused full-stack application. Both the front-end UI and the back-end will be developed with equal importance to ensure a robust and user-friendly experience.
+This project is dedicated to creating a Mental Health Support Platform to empower individuals in their mental health journey. It will offer a range of features designed to promote mental well-being, creating new habits, and support users in managing their mental health effectively.
 
-Platform Type: The platform will be accessible as a responsive website, making it widely available to users across different devices and operating systems.
+## Project Details
 
-Project Goals: The primary goal is to create a Mental Health Support Platform that promotes mental well-being by offering features such as mood tracking, journaling, educational resources, mindfulness exercises, and goal setting. The platform aims to empower users in their mental health journey.
+### Tech Stack
 
-Target Users: The target demographic includes individuals of all ages seeking mental health support and resources. The platform will be designed to cater to a diverse audience, considering varying levels of technological proficiency.
+- Front-end: React
+- Back-end: Node.js
+- Database: PostgreSQL
 
-Data Usage: We plan to use user-generated data for mood tracking and journaling, ensuring privacy and anonymity. Additionally, the resource hub will incorporate curated educational content. While the exact API is not finalized, the data would cover mood information, journal entries, and curated mental health resources.
+### Project Focus
 
-Approach: a. Database Schema: User table for authentication and profile information. Mood and journal entries linked to user profiles. Resource database for educational content.
+This project will be an evenly focused full-stack application, prioritizing both front-end and back-end development to ensure a robust and user-friendly experience.
 
-b. API Issues: Rigorous validation of user inputs to prevent data inconsistencies. Regular updates and maintenance to handle potential issues.
+### Platform Type
 
-c. Sensitive Information: User data, especially mood and journal entries, will be encrypted for security.
+The platform will be accessible as a responsive website, making it widely available to users across different devices and operating systems.
 
-d. Functionality: User authentication, mood tracking, journaling, resource hub, mindfulness exercises, goal setting, and progress tracking.
+### Project Goals
 
-e. User Flow: Seamless onboarding, clear navigation through features, and an intuitive UX/UI design.
+The primary goal is to create a Mental Health Support Platform that promotes mental well-being by offering features such as new habit tracking, journaling, educational resources, mindfulness exercises, and goal setting. The platform aims to empower users in their mental health journey.
 
-f. Features and Stretch Goals: Beyond CRUD: Integration of machine learning for personalized mental health insights. Stretch Goals: Community forums and real-time chat support.
+### Target Users
 
-Conclusion: This Mental Health Support Platform aims to provide a holistic solution for users seeking mental well-being. With a user-centric approach and advanced technologies, we believe this platform will make a positive impact on the mental health community.
+The target demographic includes individuals of all ages seeking mental health support and resources. The platform will be designed to cater to a diverse audience, considering varying levels of technological proficiency.
+
+### Data Usage
+
+We plan to use user-generated data for journaling while ensuring privacy and anonymity. Additionally, the resource hub will incorporate curated educational content and a spotify playlist with guided meditations and meditation music.
+While the exact educational API is not finalized, the data would cover mood information, journal entries, and curated mental health resources.
+
+## Installation
+
+To install the MindfulMoment platform locally, follow these steps:
+
+1. Clone the repository: `git clone <repository-url>`
+2. Navigate to the project directory: `capstone_2_frontend`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+
+## Usage
+
+Once the project is set up, you can access the MindfulMoment platform through your web browser. Explore the various features offered to support your mental well-being.
